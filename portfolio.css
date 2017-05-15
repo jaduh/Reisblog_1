@@ -1,0 +1,163 @@
+
+   body{
+        width: 90%;
+        margin:5%;
+        padding: 0;
+
+    }
+ 
+ @media only screen and (max-width: 500px) {
+    .deeltje-avontuur{
+	width: 100%;
+	}
+}
+
+ h1, h2, h3, p, a{
+	padding: 0 1.5% 0 1.5%;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*#contact{
+	background-color: #ff9672;
+	width: 100%;
+	margin: 0 0% 1% 0.5%;
+}
+*/
+
+
+.button{
+	box-shadow: 0 3px 6px 0;
+	background-color: #ff9672;
+	border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 1.5% 1% 0.5%;
+    width: 100%;
+
+}
+/*
+
+button{
+	background-color: #ff9672;
+	box-shadow: 0 3px 6px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all .25s ease-in-out;
+	color: white;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	margin: 0 1.5% 1% 0.5%;
+	
+}
+
+*/
+
+a:hover{
+	color: #999999;
+}
+
+a{
+	color:#000;
+}
+/*header*/
+
+header{
+	display: block;
+	width: 100%;
+	
+	
+
+}
+
+header h1{
+	font-family: 'Baloo', cursive;
+	font-size: 20px;
+	text-align: right;
+}
+/*inleiding*/
+
+ #inleiding{
+
+	background-image: url(afbeeldingen/vliegtuig.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: right;
+	padding: 1%;
+	margin: 0 1.5% 1% 0.5%;
+	height: auto;
+
+}
+
+#inleiding h3{
+	font-size: 30px;
+}
+/* avonturen sectie*/
+
+h2{
+	border-left: 7px solid #ff9672;
+	margin-left: 0.5%;
+}
+.container{
+
+	display: flex;
+align-items: center;
+	flex-wrap: wrap;}
+
+.deeltje-avontuur{
+	width: 30%;
+	height: 150px;
+	padding: 1%;	
+	color: white;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	margin:0.5%;
+	text-align: center;
+	text-shadow: 0 2px 2px #000;
+	
+
+
+}
+
+#deeltje_1{
+	background-image: url("https://c1.staticflickr.com/5/4194/33827655814_ee755c18f1_o.jpg");
+}
+#deeltje_2{
+	background-image: url("https://c1.staticflickr.com/5/4157/34285033890_b9ded53906_o.jpg");
+}
+#deeltje_3{
+	background-image: url("https://c1.staticflickr.com/5/4184/34284914670_89eb46f198_o.jpg");
+}
+#deeltje_4{
+	background-image: url("https://c1.staticflickr.com/5/4176/34539578091_ace4f8c54e_o.jpg");
+}
+#deeltje_5{
+	background-image: url("https://c1.staticflickr.com/5/4189/34508961582_c876b42e34_o.jpg");
+}
+#deeltje_6{
+	background-image: url("https://c1.staticflickr.com/5/4171/33860078863_aac8de6a1d_o.jpg");
+}
+#deeltje_7{
+	background-image: url("https://c1.staticflickr.com/5/4171/34284948310_9822869e5e_o.jpg");
+}
+#deeltje_8{
+	background-image: url("https://c1.staticflickr.com/5/4178/34630121366_ac98be59f2_o.jpg");
+}
+#deeltje_9{
+	background-image: url("https://c1.staticflickr.com/5/4194/33827655814_ee755c18f1_o.jpg");
+}
+
+/* blog*/
+
+#blog{
+	background-color: #ff9672; 
+	padding-bottom: 2%;
+	margin: 0 1.5% 0 0.5%;
+
+}
+
+#blog a{
+	display: block;
+}
+
